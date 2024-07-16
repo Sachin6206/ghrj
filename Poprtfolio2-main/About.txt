@@ -1,0 +1,69 @@
+<!Abou html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--Navigation bar section -->
+    <nav>
+        <a href="Project.html">Project</a>
+        <a href="Service.html">Services</a>
+        <a href="Blog.html">Blog</a>
+        <a href="Contact.html">Contact</a>
+        <a href="Resume.html">Resume</a>
+    </nav>
+    <!--Hero section-->
+    <header>
+        <img src="./C:\Users\JAYMOH\Desktop\MK Portfolio\images\MK Arts.jpg" alt="about" 
+         width="300"
+         height="300">
+        <h1>About me</h1>
+            <p>Find out everthing abbout me</p>
+   </header>
+   <!--Main page content-->
+   <main>
+       <h2>Changelog 1.0</h2>
+       <p>For 2 years now, I have been helping organizations 
+          and people on how to solve compuetr problems who 
+          are in the sector of information communication technology.
+        </p>
+        <h2>Technologies I have worked with</h2>
+        <table>
+            <tr>
+                <th>Lanuages</th>
+                <th>Frameworks</th>
+                <h2>Databases</h2>
+            </tr>
+            <tr>
+                <td>C/C++</td>
+                <td>Crow cpp</td>
+                <td>Microsoft Access</td>
+            </tr>
+            <tr>
+                <td>Javascript</td>
+                <td>React</td>
+                <td>MongoDB</td>
+            </tr>
+            <tr>
+                <td>HTML/CSS</td>
+                <td>Bootstraps</td>
+
+            </tr>
+        </table>
+   </main>
+   <!--Footer section-->
+   <footer>
+       <ul>
+        <li><a href="Github"></a></li>
+        <li><a href="LinkedIn"></a></li>
+        <li><a href="Twitter"></a></li> 
+        <li><a href="Instagram"></a></li>
+        <li><a href="Email"></a></li>
+        <li><a href="mailto:">Email</a> </li>
+       </ul>
+   </footer>
+   </body>
+   </html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calender</title>
+</head>
+<body>
+ 
+    <?php
+
+?>
+
+<head>
+
+<title>Calendar</title>
+
+<link rel="stylesheet" href="calendar.css" type="text/css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<?php
+
+function get_hour_string ($time){
+$hour_string = "";
+$hour = date("h",$time);
+$ampm = date("a",$time);
+$hour_string = "$hour:00$ampm";
+return $hour_string;
+}
+
+$hours_to_show = 12;
+$d = time();
+for($row = 0; $row <= $hours_to_show; $row++)
+{
+echo "<tr class=";
+
+if ($row % 2 == 0) 
+
+echo '"even_row">';
+else echo '"odd_row">';
+echo '<td class="hr_td">'. get_hour_string($d) . "</td>";
+echo "<td></td>";
+echo "<td></td>";
+echo "<td></td>";
+echo "</tr>";
+$d += 60 * 60;
+}
+?>
+</body>
+</html>

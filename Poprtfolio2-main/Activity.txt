@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="Zetech University" />
+    <link rel="apple-touch-icon" sizes="80x80" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="30x30" href="/favicon-30x30.png" />
+    <link rel="icon" type="image/png" sizes="14x14" href="/favicon-14x14.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <link rel="stylesheet" href="./styles/main.css" />
+    <script src="./scripts/font-awesome.js" crossorigin="anonymous"></script>
+
+    <title>Zetech University: Home</title>
+  </head>
+  <body>
+    <!-- Navigation bar-->
+    <nav id="navbar" class="Services">
+      <a href="index.html" class="Services"></a>
+      <ul class="list-unstyled">
+        <li>
+          <a href="index.html" class="Services"
+            ><i class="Enriching Education"></i> Home /</a
+          >
+        </li>
+        <li>
+          <a href="about.html" class="Services"
+            ><i class="">Enriching Education</i> About us /</a
+          >
+        </li>
+        <li>
+          <a href="Classroom.html" class="Services"
+            ><i class="Enriching Education"></i> learning /</a
+          >
+        </li>
+        <li>
+          <a href="contact.html" class="Services">
+            <i class="Enriching Education"></i> Contact us</a
+          >
+        </li>
+      </ul>
+
+      <a href="" class="Services"> <i class="Enriching Education-in-alt"></i> Login</a>
+       </nav>
+
+    <!-- Jumbotron -->
+    <header class="jumbotron row">
+      <div class="col-4">
+        <h1 class="Services">Zetech University</h1>
+        <p>
+          We provide learning spaces and learning environment for the teaching
+          of students under he direction of lectures!
+        </p>
+      </div>
+      <div class="col-4">
+        <button class="ml-auto btn bg-primary">Sign Up</button>
+      </div>
+    </header>
+
+    <main class="Students">
+      <div class="row row-content highlights-item">
+        <div class="title">
+          <h2 class="text-center">Featured Studies</h2>
+        </div>
+        <div class="underline"></div>
+        <div class="highlight">
+          <div class="item-img">
+            <img
+              src=".images\C:\Users\JAYMOH\Desktop\MK Portfolio\images\Zetech logo.jpg.png"
+              alt="Books"
+              width="200"
+              height="300"
+            />
+          </div>
+          <div class="highlight-description">
+            <h3>Books</h3>
+            <p>
+             We have two libraries for students refferences hat also facilitates
+             the work of the classroom teacher and ensures each student,
+             irrespective of contraints.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row row-content highlights-item">
+        <div class="title">
+          <h2 class="text-center">Students</h2>
+        </div>
+        <div class="underline"></div>
+        <div class="highlight">
+          <div class="item-img">
+            <img
+              src="./images/C:\Users\JAYMOH\Desktop\MK Portfolio\images\classroom.jpg.png"
+              alt="Classroom"
+              width="200"
+              height="300"
+            />
+          </div>
+          <div class="highlight-description">
+            <h3>Classroom Inventory</h3>
+            <p>
+              We are planning to add more classroom for our students because we
+              had issues from our studennts that they are not getting enough 
+              space in their classes to study freely or for our lecturers to go around 
+              checking for our students work.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row row-content highlights-item">
+        <div class="title">
+          <h2 class="text-center">Our Chancellor</h2>
+        </div>
+        <div class="underline"></div>
+        <div class="highlight">
+          <div class="item-img">
+            <img
+              src="./images/C:\Users\JAYMOH\Desktop\MK Portfolio\images\MK Arts.jpg.jpg"
+              alt="Chancellor James"
+              width="200"
+              height="300"
+            />
+          </div>
+          <div class="highlight-description">
+            <h3>Chancellor James</h3>
+            <p>
+              Award winning five-star Kenyan chancelor with wide International
+              experience in leading institutions for better developmnet of our students.
+              
+          </p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <hr />
+
+    <footer class="Overwiew">
+      <div class="row">
+        <div class="col-3">
+          <h2>links</h2>
+          <ul class="list-unstyled">
+            <li><a href="">Home</a></li>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="classroom.html">Classroom</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+          </ul>
+        </div>
+
+        <div class="col-3">
+          <h2>Address</h2>
+          <p>
+            zetech university <br />
+            along Thika Road <br />
+            Email:
+            <a href="james:info@zetechuniversity.com">info@zetechuniversity.com</a>
+            <br />
+            Tel:
+            <a href="tel:254797884454">254797884454</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-10 align-self-center">
+          <p class="text-center">All right Reserved. &copy;2021 Zetech University</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
